@@ -1,3 +1,7 @@
+/*
+问题描述:给定一个整数数组和一个目标值找出数组中和为目标值的两个数,且同样的元素不能被重复利用。
+*/
+
 #include<iostream>
 #include<vector>
 #include<algorithm>
@@ -8,9 +12,9 @@ vector<int> twoSum(vector<int>& nums, int target);
 
 int main()
 {
+	//测试部分
 	vector<int> nums{ 1,4,3,5 };  //声明并初始化向量
-	//打印能够组成目标值元素的下标以逻辑序号开始
-	cout << twoSum(nums, 2)[0] << " " << twoSum(nums, 2)[1]; 
+	cout << twoSum(nums, 2)[0] << " " << twoSum(nums, 2)[1];  //打印能够组成目标值元素的下标以逻辑序号开始
 	return 0;
 }
 
