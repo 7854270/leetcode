@@ -14,7 +14,7 @@ int main()
 {
 	//测试部分
 	vector<int> nums{ 1,4,3,5 };  //声明并初始化向量
-	cout << twoSum(nums, 2)[0] << " " << twoSum(nums, 2)[1];  //打印能够组成目标值元素的下标以逻辑序号开始
+	cout << twoSum(nums, 7)[0] << " " << twoSum(nums, 7)[1];  //打印能够组成目标值元素的下标以逻辑序号开始
 	return 0;
 }
 
